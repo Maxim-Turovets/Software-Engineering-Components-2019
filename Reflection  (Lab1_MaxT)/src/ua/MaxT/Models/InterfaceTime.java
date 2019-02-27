@@ -12,12 +12,9 @@ public interface InterfaceTime {
 
     public void setMinutes(int minutes);
 
-    @Override
     public boolean equals(Object o);
 
-    @Override
     public int hashCode();
 
-    @Override
     public String toString();
 }
