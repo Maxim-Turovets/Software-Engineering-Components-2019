@@ -84,5 +84,4 @@ class DateTest {
         initDate();
         assertEquals(res_date,date);
     }
-
 }
