@@ -29,5 +29,7 @@
     </bean>
     <bean name="localDateBean" class="Models.LocalDate"></bean>
 
+    <bean name="singletonBean" class="patterns.Singleton" scope="singleton"></bean>
+
 
 </beans>

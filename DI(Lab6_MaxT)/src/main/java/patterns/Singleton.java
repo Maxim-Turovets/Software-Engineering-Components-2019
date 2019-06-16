@@ -13,9 +13,9 @@ public class Singleton  implements InterfaceDate {
 
     static  Singleton singleton = new Singleton();
 
-    public Singleton(){}
+    private Singleton(){}
 
-    public  static  Singleton getInstance(){
+    private   static  Singleton getInstance(){
         return  singleton;
     }
 
